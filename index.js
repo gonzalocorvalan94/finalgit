@@ -15,7 +15,7 @@ switch (op) {
     resultado = num1 * num2;
     break;
   case "/":
-    resultado = num2 === 0 ? "Error: división por cero" : num1 / num2;
+    resultado = num2 === 0 ? "No se puede dividir por 0" : num1 / num2;
     break;
   default:
     resultado = "Operación no válida";
